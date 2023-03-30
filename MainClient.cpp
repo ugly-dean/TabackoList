@@ -1,8 +1,10 @@
+#include "hello.hpp"
+
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello, World!\n";
+    printHello();
 
     return 0;
 }
